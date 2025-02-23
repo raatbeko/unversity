@@ -2,21 +2,20 @@ package domain;
 
 public class Course {
 
-    private Semester currentSemester;
+    private int num;
 
     public Course() {
     }
 
-    public Course(Semester currentSemester) {
-        this.currentSemester = currentSemester;
+    public Course(int num) {
+        this.num = num;
     }
 
-    public Semester getCurrentSemester() {
-        return currentSemester;
+    public int getNum() {
+        return num;
     }
 
-    public void setCurrentSemester(Semester currentSemester) {
-        this.currentSemester = currentSemester;
+    public void setNum(int num) {
+        this.num = num;
     }
-
 }

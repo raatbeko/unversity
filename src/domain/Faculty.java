@@ -15,6 +15,12 @@ public class Faculty extends NamedObject {
         students = new ArrayList<>();
     }
 
+    public Faculty(String name) {
+        super(name);
+        courses = new ArrayList<>();
+        students = new ArrayList<>();
+    }
+
     public Faculty(List<Course> courses, List<Student> students) {
         this.courses = courses;
         this.students = students;
